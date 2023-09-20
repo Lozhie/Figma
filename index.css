@@ -3,4 +3,19 @@
     height: 160px;
     position: absolute;
     background-color: chocolate;
-    
+}
+    .container {
+        display: flex;
+        flex-flow: column warp;
+    }
+.flex {
+    display: flex;
+    justify-content: center;
+}
+.box {
+    height: 50px
+    width: 50px
+    border: 1px
+    background-color: chocolate;
+}
+
